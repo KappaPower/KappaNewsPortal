@@ -1,7 +1,7 @@
-1 - python manage.py makemigrations
-	python manage.py migrate
-	python manage.py shell
-	from news.models import *
+python manage.py makemigrations
+python manage.py migrate
+python manage.py shell
+from news.models import *
 
 	u1 = User.objects.create_user(username = 'user1') 
 	u2 = User.objects.create_user(username = 'user2') 
