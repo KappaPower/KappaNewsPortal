@@ -3,8 +3,8 @@ python manage.py migrate
 python manage.py shell
 from news.models import *
 
-	u1 = User.objects.create_user(username = 'user1') 
-	u2 = User.objects.create_user(username = 'user2') 
+u1 = User.objects.create_user(username = 'user1') 
+u2 = User.objects.create_user(username = 'user2') 
 
 2 - Author.objects.create(user = u1)
 	Author.objects.create(user = u2)
